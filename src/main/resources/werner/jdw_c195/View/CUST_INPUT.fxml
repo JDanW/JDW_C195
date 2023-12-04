@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="370.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="werner.jdw_c195.View.CUSTDISPLAY">
+   <children>
+      <Label text="Name" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="75.0" />
+      <Label text="Address" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="125.0" />
+      <Label text="Postal Code" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="175.0" />
+      <Label text="Phone" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="225.0" />
+      <TextField fx:id="CUST_NAME_FIELD" layoutX="125.0" layoutY="71.0" AnchorPane.leftAnchor="125.0" AnchorPane.topAnchor="71.0" />
+      <TextField fx:id="CUST_ADD_FIELD" layoutX="125.0" layoutY="121.0" prefHeight="25.0" prefWidth="231.0" AnchorPane.leftAnchor="125.0" />
+      <TextField fx:id="CUST_PHONE_FIELD" layoutX="125.0" layoutY="221.0" prefHeight="25.0" prefWidth="108.0" AnchorPane.leftAnchor="125.0" />
+      <TextField fx:id="CUST_POSTAL_FIELD" layoutX="126.0" layoutY="171.0" AnchorPane.leftAnchor="125.0" />
+      <Label layoutX="115.0" layoutY="22.0" text="CUSTOMER INFORMATION" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="125.0" layoutY="275.0" mnemonicParsing="false" text="SAVE" AnchorPane.leftAnchor="125.0" AnchorPane.topAnchor="275.0" />
+      <Button layoutX="337.0" layoutY="275.0" mnemonicParsing="false" text="EXIT" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="275.0" />
+      <TableView layoutX="25.0" layoutY="46.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="Address" />
+            <TableColumn prefWidth="75.0" text="Postal Code" />
+            <TableColumn prefWidth="75.0" text="Phone" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

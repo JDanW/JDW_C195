@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="werner.jdw_c195.View.CUSTDISPLAY">
+   <children>
+      <Label text="Name" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="75.0" />
+      <Label text="Address" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="125.0" />
+      <Label text="Postal Code" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="200.0" />
+      <Label text="Phone" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="250.0" />
+      <TextField fx:id="CUST_NAME_FIELD" layoutX="125.0" layoutY="71.0" AnchorPane.leftAnchor="125.0" AnchorPane.topAnchor="71.0" />
+      <TextField fx:id="CUST_ADD_FIELD" layoutX="125.0" layoutY="121.0" prefHeight="25.0" prefWidth="231.0" AnchorPane.leftAnchor="125.0" />
+      <TextField fx:id="CUST_PHONE_FIELD" layoutX="125.0" layoutY="246.0" prefHeight="25.0" prefWidth="108.0" AnchorPane.leftAnchor="125.0" />
+      <TextField fx:id="CUST_POSTAL_FIELD" layoutX="125.0" layoutY="196.0" AnchorPane.leftAnchor="125.0" />
+      <Label layoutX="115.0" layoutY="22.0" text="CUSTOMER INFORMATION" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="31.0" layoutY="315.0" mnemonicParsing="false" text="EDIT INFO" />
+      <Button layoutX="347.0" layoutY="315.0" mnemonicParsing="false" text="EXIT" />
+      <Button layoutX="148.0" layoutY="315.0" mnemonicParsing="false" text="APPOINTMENTS" />
+      <Label layoutX="70.0" layoutY="154.0" text="State/Provice" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="150.0" />
+      <Label layoutX="238.0" layoutY="150.0" text="Country" />
+      <ComboBox layoutX="125.0" layoutY="146.0" prefHeight="25.0" prefWidth="93.0" />
+      <ComboBox layoutX="292.0" layoutY="146.0" prefHeight="25.0" prefWidth="64.0" />
+   </children>
+</AnchorPane>
